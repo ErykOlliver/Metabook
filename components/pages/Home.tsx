@@ -4,11 +4,11 @@ import React from 'react'
 export default function Home() {
     return (
         <section>
-            <header>
+            <header className='w-full py-2.5 gap-2.5 justify-center flex flex-col items-center text-center'>
                 <Image src={"/metabook.svg"} width={25} height={29} alt='metabook-slogan' />
-                <h1>METABOOK</h1>
-                <h2>Your catalog of favorite heroes and villains.</h2>
-                <p>Search for characters, uncover powers, and explore the expanded universe of fiction with real-time data from the SuperHero API.</p>
+                <h1 className='text-2xl font-montserrat font-bold'>METABOOK</h1>
+                <h2 className='text-base font-opensans text-secondary'>Your catalog of favorite heroes and villains.</h2>
+                <p className='text-xs font-opensans text-secondary'>Search for characters, uncover powers, and explore the expanded universe of fiction with real-time data from the SuperHero API.</p>
             </header>
             <article>
 
