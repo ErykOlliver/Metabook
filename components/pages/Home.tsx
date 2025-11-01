@@ -12,7 +12,7 @@ export default function Home() {
                 <p className='text-xs font-opensans text-secondary'>Search for characters, uncover powers, and explore the expanded universe of fiction with real-time data from the SuperHero API.</p>
             </header>
             <article>
-                <Cards name='name' full_name='full-name' biography='bio' publisher='publisher' />
+                <Cards name='Spider-Man' full_name='Peter Parker' biography='bio' publisher='marvel' />
             </article>
         </section>
     )
