@@ -26,6 +26,16 @@
   --leading-relaxed: 1.75;
 }
 
+@theme {
+  --color-bg: #0B0B0C,
+    --color-cards: #1A1B1D,
+    --color-primmary: #F5F5F5,
+    --color-secondary: #A3A3A3,
+    --color-border: #3F4246,
+    --color-highlights: #E5C07B,
+    --color-cta: #B33A3A,
+}
+
 body {
   font-size: var(--text-base);
   line-height: var(--leading-normal);
