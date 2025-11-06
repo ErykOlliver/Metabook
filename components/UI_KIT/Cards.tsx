@@ -9,7 +9,7 @@ type props = {
 
 export const Cards = (props: props) => {
     return (
-        <div className='w-full border border-border shadow-2xl font-opensans bg-cards px-2.5 py-2 flex flex-col items-start justify-between min-h-52'>
+        <div className='w-full border border-border shadow-2xl font-opensans bg-cards px-2.5 py-2 flex flex-col items-start justify-between min-h-fit max-h-60'>
             <div className='flex flex-col border-b py-1.5 border-secondary w-full'>
                 <span className='px-1 text-sm bg-cta uppercase rounded-xs w-fit'>{props.publisher}</span>
                 <h2 className='text-xl font-semibold'>{props.name}</h2>
