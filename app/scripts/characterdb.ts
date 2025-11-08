@@ -1,12 +1,16 @@
-// interface characterProps {
-//     id: number,
-//     name: string
-// }
+import fs from 'fs'
+interface characterProps {
+    id: number,
+    name: string
+}
 
-// type props = {
-//     character: characterProps[]
-// }
+type props = {
+    character: characterProps[]
+}
 
-// export default async function handleCharacter(props: props) {
-//     try
-// }
+export default async function handleCharacter() {
+    
+
+
+    
+}
