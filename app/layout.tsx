@@ -14,9 +14,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased bg-bg min-h-screen text-primmary w-screen`}
+        className={`antialiased bg-bg min-h-screen flex flex-col justify-between text-primmary w-screen`}
       >
-        <main className="px-6 py-2.5">
+        <main className="px-6 py-6">
           {children}
         </main>
         <footer className="flex px-6 py-2.5 items-center h-fit justify-between border-t border-border text-secondary">
@@ -24,7 +24,7 @@ export default function RootLayout({
           <div>
             <ul className="flex gap-2.5">
               <li><a href="" className="text-sm">About</a></li>
-              <li><a href="" className="text-sm">API</a></li>
+              <li><a href="https://superheroapi.com/index.html" className="text-sm">API</a></li>
             </ul>
           </div>
         </footer>
