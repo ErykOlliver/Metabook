@@ -14,9 +14,20 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased bg-bg px-6 text-primmary h-screen w-screen`}
+        className={`antialiased bg-bg min-h-screen text-primmary w-screen`}
       >
-        {children}
+        <main className="px-6 py-2.5">
+          {children}
+        </main>
+        <footer className="flex px-6 py-2.5 items-center h-fit justify-between border-t border-border text-secondary">
+          <h5 className="text-sm">© 2025 MetaBook</h5>
+          <div>
+            <ul className="flex gap-2.5">
+              <li><a href="" className="text-sm">About</a></li>
+              <li><a href="" className="text-sm">API</a></li>
+            </ul>
+          </div>
+        </footer>
       </body>
     </html>
   );
